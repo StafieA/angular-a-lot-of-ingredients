@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Recipes-and-ingredients';
-  loadedValue = 'recipe';
-
-  onNavigate(value: string) {
-    this.loadedValue = value;
-  }
 }
