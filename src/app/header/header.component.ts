@@ -10,4 +10,8 @@ export class HeaderComponent {
   onSave() {
     this.dsStorage.storeRecipes();
   }
+
+  onFetch() {
+    this.dsStorage.fetchRecipes();
+  }
 }
