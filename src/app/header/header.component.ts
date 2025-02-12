@@ -12,6 +12,6 @@ export class HeaderComponent {
   }
 
   onFetch() {
-    this.dsStorage.fetchRecipes();
+    this.dsStorage.fetchRecipes().subscribe();
   }
 }
